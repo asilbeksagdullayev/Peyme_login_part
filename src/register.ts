@@ -53,7 +53,10 @@ btn2.addEventListener("click", () => {
  .validate(formData)
  .then(() => {
    console.log(formData);
-
+   email2Input.value = "";
+   password2Input.value = "";
+   name2.value = "";
+   userName2.value = "";
  })
 
  .catch((error) => {
