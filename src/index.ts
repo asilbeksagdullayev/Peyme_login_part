@@ -4,3 +4,4 @@ import "./register.ts";
 import "./login.ts";
 import "./forget.ts";
 import "../src/index.css";
+import IMask from 'imask';
